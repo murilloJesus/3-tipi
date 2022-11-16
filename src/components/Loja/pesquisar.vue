@@ -22,7 +22,6 @@ import { defineComponent } from "vue";
 import { search } from "ionicons/icons";
 
 export default defineComponent({
-  name: "Pesquisar",
   setup() {
     /**
      * Foi inserido o search no meu codigo fonte
