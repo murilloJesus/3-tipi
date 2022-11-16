@@ -21,7 +21,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Informações perfil",
+  name: "informacoes-perfil",
   data: () => {
     return {
       nickname: "3TIPI",

@@ -1,8 +1,15 @@
-<template></template>
+<template>
+  <div v-for="(produto, index) in produtos" :key="index">
+    <img :src="produto.photoUrl" />
+    <p>{{ produto.name }}</p>
+    <h3>{{ produto.price }}</h3>
+  </div>
+</template>
 
 <script>
+import { defineComponent } from "vue";
+
 export default defineComponent({
-  name: "Produtos",
   data: () => {
     return {
       produtos: [
